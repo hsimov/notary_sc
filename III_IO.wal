@@ -1,4 +1,4 @@
-Ϣ	defVar --name textReader --type TextFileReader
+͢	defVar --name textReader --type TextFileReader
 defVar --name sTextFromFile --type String
 defVar --name dtFromRegex --type DataTable
 defVar --name iCount --type Numeric
@@ -57,7 +57,7 @@ defVar --name sDOB2 --type String
 //setVar --name "${in_sListLastUpdate}" --value "2021-01-03"
 //setVar --name "${in_iKey}" --value 1
 
-//logMessage --message "--III_IO Module Starting--" --type "Info"
+logMessage --message "--III_IO Module Starting--" --type "Info"
 case --switches "CaseSwitchesAll"
 	when --left "${in_sText}" --operator "Is_Null" --negate 
 	when --left "${in_sListLastUpdate}" --operator "Is_Null" --negate 
