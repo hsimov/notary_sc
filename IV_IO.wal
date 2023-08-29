@@ -290,4 +290,4 @@ for --variable ${iCount} --from 1 --to ${dtFromRegex.Rows} --step 1
 		getRegex --text "${sFullPersonInformation}" --regexPattern "^(\\d{1,3})\\.(.*)" --regexOptions "0" --groupnumber 2 sFullPersonInformation=value
 	endIf
 next
-endSub*23.0.4.0
+endSub*23.0.5.0
