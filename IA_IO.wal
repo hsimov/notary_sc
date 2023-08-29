@@ -1,4 +1,4 @@
-Ó²defVar --name folderPath --type String --value "C:\\Projects\\Notariusi\\Robot\\Initial\\DANSSplitted\\"
+“³defVar --name folderPath --type String --value "C:\\Projects\\Notariusi\\Robot\\Initial\\DANSSplitted\\"
 defVar --name textReader --type TextFileReader
 defVar --name dtFromRegex --type DataTable
 defVar --name iCount --type Numeric
@@ -42,6 +42,7 @@ defVar --name dtVirtual_Dates --type DataTable
 //setVar --name "${in_sListLastUpdate}" --value "2021-01-03"
 //setVar --name "${in_out_iKey}" --value 1
 
+logMessage --message "--IA_IO Module Starting--" --type "Info"
 logMessage --message "--IA_IO Module Starting--" --type "Info"
 case --switches "CaseSwitchesAll"
 	when --left "${in_sText}" --operator "Is_Null" --negate 
@@ -246,4 +247,4 @@ while --left "${DoBsList.Count}" --operator "Greater_Than" --right 0
 		endIf
 	endIf
 endWhile
-endSub*23.0.5.0
+endSub*23.0.4.0
